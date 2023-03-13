@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-bottom: 200px;
+}
+.card {
+  background-color: white;
+  color: #2f1d38;
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  text-align: center;
+}
+.card-image {
+  height: 300px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+.card h4 {
+  margin-top: 80px;
+}
+.card:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.free {
+  background-image: url("../img/FreeCard.svg");
+}

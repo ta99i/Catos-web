@@ -1,0 +1,21 @@
+.menu {
+  position: fixed;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.lab {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+  width: 197px;
+}
+.inp {
+  width: 40px;
+  height: 40px;
+}
+.acc {
+  width: 100%;
+}
