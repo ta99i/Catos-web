@@ -18,7 +18,7 @@ const LeftNavbar = ({ colors, inputs, onColorChange, onInputChanges }) => {
   });
   return (
     <div className="menu">
-      <Accordion defaultActiveKey={["0"]} alwaysOpen className="acc">
+      <Accordion defaultActiveKey={["0"]} className="acc">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Border</Accordion.Header>
           <Accordion.Body>

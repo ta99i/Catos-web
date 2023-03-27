@@ -20,3 +20,16 @@
 .acc {
   width: 100%;
 }
+
+@media only screen and (max-width: 780px) {
+  .menu {
+    width: 170px;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .menu {
+    position: absolute;
+    transform: translateX(-175px);
+  }
+}

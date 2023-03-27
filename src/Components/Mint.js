@@ -37,7 +37,7 @@ const Mint = () => {
   const handleShow = () => setShow(true);
   function generateNFT(colors) {
     setNftSvg(
-      <div>
+      <div className="svg-width">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 -0.5 15 15"

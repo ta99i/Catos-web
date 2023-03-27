@@ -1,9 +1,32 @@
 .center-screen {
+  width: calc(100% - 300px);
+  float: right;
+  height: 90vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .center-screen {
+    width: calc(100% - 170px);
+  }
+}
+@media only screen and (max-width: 675px) {
+  .svg-width svg {
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .center-screen {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .svg-width svg {
+    max-width: 300px;
+  }
 }
